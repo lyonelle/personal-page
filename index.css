@@ -1,4 +1,7 @@
 body {  
-    background-color: coral;
+    background-color: rgba(234, 238, 232, 0.986);
     color: cornflowerblue;
+}
+h1, h2, h3 {
+    font-family: 'poppins',sans-serif;
 }
