@@ -1,7 +1,46 @@
-body {  
-    background-color: rgba(234, 238, 232, 0.986);
-    color: cornflowerblue;
-}
-h1, h2, h3 {
-    font-family: 'poppins',sans-serif;
-}
+    body {  
+        background-color: rgba(234, 238, 232, 0.986);
+        color: rgb(1, 1, 8);
+    }
+    h1, h2, h3 {
+        font-family: 'poppins',sans-serif;
+    }
+    p, a, li {
+        font-family: 'open sans',sans-serif;
+    }
+    a {
+        text-decoration: none;
+    }
+
+    .but {
+        padding: 4px 16px;
+        border-radius: 4px;
+    }
+
+
+    .btn-yellow {
+        background-color: rgb(46, 36, 192);
+        color :rgb(200, 200, 200);
+        border-radius: 4px;
+        padding: 14px ;   
+    }
+
+    .but-yellow:hover {
+        text-decoration: underline ;
+        box-shadow: 1px 2px 8px burlywood;
+    }
+    .img-tab {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .card-white {
+        background-color: rgb(214, 224, 204);
+        padding: 16px 34px 24px 34px;
+        width: 700px;
+        margin: 10px auto;
+        border-radius: 8px;
+        text-align: center;
+        list-style: inside;
+    }
