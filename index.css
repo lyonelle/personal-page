@@ -16,23 +16,25 @@
         padding: 4px 16px;
         border-radius: 4px;
     }
+    .btn-blue:hover {
+        background-color: rgb(201, 33, 178);
+        box-shadow: 0px 2px 8px rgb(165, 173, 161);
+    }
+    
 
 
-    .btn-yellow {
+    .btn-blue {
         background-color: rgb(46, 36, 192);
         color :rgb(200, 200, 200);
         border-radius: 4px;
         padding: 14px ;   
     }
 
-    .but-yellow:hover {
-        text-decoration: underline ;
-        box-shadow: 1px 2px 8px burlywood;
-    }
+    
     .img-tab {
         border-radius: 50%;
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 150px;
         object-fit: cover;
     }
     .card-white {
@@ -43,4 +45,22 @@
         border-radius: 8px;
         text-align: center;
         list-style: inside;
+    }
+    .lista-inline {
+        list-style: none;
+        padding: 0px;
+    }
+    .lista-inline li {
+        display: inline-block;
+    }
+    .social-icon {
+        font-size: 32px;
+        color: rgba(65, 87, 54, 0.986);
+    }
+    .lista-center {
+        
+        padding-left: 5px;
+        text-align: center;
+       
+        
     }
